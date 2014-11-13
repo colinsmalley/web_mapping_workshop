@@ -50,7 +50,7 @@ var clickHandler = function(e){
   $('#info').fadeIn(400,function(){
     var info = '';
 
-    info = '<div>This base is named: ' + feature.properties.AFB + '</div>';
+    info = '<div>This base is named ' + feature.properties.AFB + ' AFB, which is located in ' + feature.properties.State + '</div>';
 
     $('#info').append(info);
   });
